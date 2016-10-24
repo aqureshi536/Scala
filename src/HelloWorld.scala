@@ -8,12 +8,6 @@ object HelloWorld {
     
   }
 
-  case class Employee(var eId : Int = 101 , var eName : String = "Ahmad")
-  {
-    
-    
-  }
   
-  var eObj = Employee();
 
 }
