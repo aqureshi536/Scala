@@ -49,6 +49,19 @@ object FirstCode {
                                                   //| 9
                                                   //| 10
   }
+  
+  for{i<- 10 to  20}
+  println(i)                                      //> 10
+                                                  //| 11
+                                                  //| 12
+                                                  //| 13
+                                                  //| 14
+                                                  //| 15
+                                                  //| 16
+                                                  //| 17
+                                                  //| 18
+                                                  //| 19
+                                                  //| 20
 
   /*
   While loop creation and use
@@ -120,5 +133,4 @@ object FirstCode {
     
    // list of element with multiple type  refer type hierarchy for scala
    var anyElements = List(1,3.3,true,"Ahmad")     //> anyElements  : List[Any] = List(1, 3.3, true, Ahmad)
-
 }

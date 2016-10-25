@@ -38,7 +38,10 @@ object FirstCode {;import org.scalaide.worksheet.runtime.library.WorksheetSuppor
 */
   for (i <- 1 to 10) {
     println(i)
-  };$skip(61); 
+  };$skip(41); 
+  
+  for{i<- 10 to  20}
+  println(i);$skip(57); 
 
   /*
   While loop creation and use
@@ -100,5 +103,4 @@ object FirstCode {;import org.scalaide.worksheet.runtime.library.WorksheetSuppor
     
    // list of element with multiple type  refer type hierarchy for scala
    var anyElements = List(1,3.3,true,"Ahmad");System.out.println("""anyElements  : List[Any] = """ + $show(anyElements ))}
-
 }
