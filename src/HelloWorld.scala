@@ -25,7 +25,23 @@ object HelloWorld {
   
     println(meth1 )
     println(meth2 )
+    
+    var obj = new FloidTriangle();
+    obj pattern()
  
+  }
+  case class FloidTriangle(){
+    
+    def pattern(){
+      
+      for(i<- 0 to 4){
+        for(j<-0 until i){
+        print("*")
+        }
+        println("")
+      }
+    }
+    
   }
 
   
